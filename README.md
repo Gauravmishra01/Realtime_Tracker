@@ -34,9 +34,12 @@ This repository contains the backend code for a realtime device tracking applica
    npm start
    ```
 5. Open your browser and visit the homepage:
-   ```text
+   ```
    https://realtime-tracker-2z3j.onrender.com
    ```
+
+## Live Demo
+You can check the live application here: [Realtime Tracker - Live Link](https://realtime-tracker-2z3j.onrender.com)
 
 ## Usage
 - Monitor devices in realtime on an interactive map.
