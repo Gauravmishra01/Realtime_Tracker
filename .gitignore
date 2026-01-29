@@ -1,2 +1,6 @@
 node_modules
 .env
+public/js/bundle.js
+public/js/bundle.js.map
+public/js/*.png
+

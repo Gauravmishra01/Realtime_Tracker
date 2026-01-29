@@ -26,6 +26,19 @@ io.on("connection", (socket) => {
     });
   });
   
+  // Handle device actions (ring, lost mode, erase)
+  socket.on("deviceAction", (data) => {
+    const { id, action } = data;
+    console.log(`Device action requested for ${id}: ${action}`);
+    
+    // Emit to the specific device (in a real app)
+    // For demo purposes, we'll just broadcast it back
+    io.emit("deviceAction", {
+      id,
+      action,
+      timestamp: new Date(),
+    });
+  });
 
   // Handle disconnect
   socket.on("disconnect", () => {
@@ -43,3 +56,4 @@ app.get("/", (req, res) => {
 server.listen(3000, () => {
   console.log("🚀 Server running at http://localhost:3000");
 });
+
