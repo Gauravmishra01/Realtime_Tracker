@@ -7,7 +7,7 @@ This repository contains a full-featured "Find My Phone" application built with 
 ## ✨ Features
 
 ### Real-time Device Tracking
-- Live location updates via WebSockets (Socket.IO)
+- Live location updates via WebSocket (Socket.IO)
 - Interactive map visualization with Leaflet.js
 - Multiple device support with automatic discovery
 
