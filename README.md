@@ -23,7 +23,7 @@ This repository contains a full-featured "Find My Phone" application built with 
 
 ### Device Controls
 - **Ring Device**: Make your device play a sound
-- **Lost Mode**: Lock device and display custom message
+- **Lost Mode**: Lock device and display a custom message
 - **Erase Data**: Remotely wipe device data (with confirmation)
 
 ### Map Features
